@@ -1,6 +1,15 @@
- 
 <?php
-$sum = 0;
+
+/**
+ *
+ * @category     Charts
+ * @author       Adrian Villamayor Sanchez
+ * @version      1.0
+ * @description  Generate a pure css pie chart with php
+ */
+
+public function pieGenerator(){
+    $sum = 0;
     $percentages = array(11, 10, 61, 14, 4);
     foreach($percentages as $key){
         $sum = $sum + $key;
@@ -92,4 +101,5 @@ $sum = 0;
 
         $chart .='</div>';
     }
+}
 ?>
