@@ -1,16 +1,10 @@
 # Project Title
 
-Pie Chart with PHP
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Pie Chart with PHP 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Adrián Villamayor Sáncehz** - *Full-Stack Developer*
 
 ## License
 
