@@ -14,3 +14,6 @@ This project is licensed under the GNU General Public License v3.0e - see the [L
 ## Acknowledgments
 
 * Created and thought for the development of email graphics
+
+![Example](https://ibb.co/fCfaXp)
+
