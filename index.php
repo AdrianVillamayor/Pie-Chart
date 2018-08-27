@@ -97,6 +97,8 @@ public function pieGenerator(){
                   $chart .='</div>';
               }
             }
+            //Add to convert to donut chart 
+            // $chart .='<div style="background-color:#fff; border-radius: 200px; width:130px;height:130px; position:absolute; left:33px; top:33px;"></div>';
             $chart .='</div>';
 
         $chart .='</div>';
