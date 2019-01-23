@@ -13,8 +13,6 @@ This project is licensed under the GNU General Public License v3.0e - see the [L
 
 ## Acknowledgments
 
-* Created and thought for the development of email graphics
-
 ![Example Pie](https://image.ibb.co/dKkZsp/Captura_de_pantalla_2018_08_27_a_las_17_55_33.png)
 ![Example Donut](https://image.ibb.co/cbcdk9/Captura_de_pantalla_2018_08_27_a_las_17_49_34.png)
 
