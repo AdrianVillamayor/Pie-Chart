@@ -1,18 +1,44 @@
-# Project Title
+# Pie Chart
 
-Pie Chart with PHP 
+Timer, with output format customization.
 
-## Authors
+## Installation
 
-* **Adrián Villamayor Sáncehz** - *Full-Stack Developer*
-[Instagram](https://www.instagram.com/adrian_villamayor/)
 
-## License
+```php
 
-This project is licensed under the GNU General Public License v3.0e - see the [LICENSE.md](LICENSE.md) file for details
+ require_once 'pieGenerator.php';
+
+```
+
+## Usage
+
+```php
+/**
+  * This method will perform an action/method thru HTTP/API calls
+  *
+  * @param array  $percentages Percentages to generate the chart (the sum has to be 100)
+  * @param array  $colors      Array of colors that will split the chart
+  * @param string $type        Type of chart (default 'pie')
+  * 
+  * return string/bool
+*/
+
+  $percentages = array(11, 10, 61, 14, 4);
+  $colors      = array('#007bff', '#e83e8c', '#fd7e14', '#28a745', '#17a2b8');
+  pieGenerator($percentages, $colors);
+
+```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## Acknowledgments
 
 ![Example Pie](https://image.ibb.co/dKkZsp/Captura_de_pantalla_2018_08_27_a_las_17_55_33.png)
+
 ![Example Donut](https://image.ibb.co/cbcdk9/Captura_de_pantalla_2018_08_27_a_las_17_49_34.png)
 
+## License
+[MIT](https://github.com/AdrianVillamayor/Pie-Chart-PHP/blob/master/LICENSE)
