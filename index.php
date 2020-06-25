@@ -8,12 +8,15 @@
  * @description  Generate a pure css pie chart with php
  */
 
-private function _pieGenerator($percentages){
+private function _pieGenerator($percentages, $colors, $type = "pie"){
     $sum = 0;
-
+    if(empty($percentages) || empty($colors){
+        return false;
+    }
     foreach($percentages as $key){
         $sum = $sum + $key;
     }
+       
     if($sum == 100){
         $pieSize = 200; 
         $baseColor = "#fff";
@@ -97,11 +100,18 @@ private function _pieGenerator($percentages){
                   $chart .='</div>';
               }
             }
-            //Add to convert to donut chart 
-            // $chart .='<div style="background-color:#fff; border-radius: 200px; width:130px;height:130px; position:absolute; left:33px; top:33px;"></div>';
+            
+            if($type == "donnut"){
+                $chart .='<div style="background-color:#fff; border-radius: 200px; width:130px;height:130px; position:absolute; left:33px; top:33px;"></div>';
+            }
+        
             $chart .='</div>';
 
         $chart .='</div>';
+        
+        return $chart;
     }
+       
+    return false;
 }
 ?>
