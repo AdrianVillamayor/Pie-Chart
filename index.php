@@ -8,9 +8,9 @@
  * @description  Generate a pure css pie chart with php
  */
 
-private function _pieGenerator(){
+private function _pieGenerator($percentages){
     $sum = 0;
-    $percentages = array(11, 10, 61, 14, 4);
+
     foreach($percentages as $key){
         $sum = $sum + $key;
     }
