@@ -15,7 +15,7 @@ Timer, with output format customization.
 
 ```php
 /**
-  * This method will perform an action/method thru HTTP/API calls
+  * Generates a chart pie/donut format in css and html vanilla
   *
   * @param array  $percentages Percentages to generate the chart (the sum has to be 100)
   * @param array  $colors      Array of colors that will split the chart
