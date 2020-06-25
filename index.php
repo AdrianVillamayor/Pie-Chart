@@ -5,10 +5,21 @@
  * @category     Charts
  * @author       Adrian Villamayor Sanchez
  * @version      1.0
- * @description  Generate a pure css pie chart with php
+ * @description  Generates a chart pie/donut format in css and html vanilla
  */
 
-private function _pieGenerator($percentages, $colors, $type = "pie"){
+
+/**
+  * Generates a chart pie/donut format in css and html vanilla
+  *
+  * @param array  $percentages Percentages to generate the chart (the sum has to be 100)
+  * @param array  $colors      Array of colors that will split the chart
+  * @param string $type        Type of chart (default 'pie')
+  * 
+  * return string/bool
+*/
+
+public function pieGenerator($percentages, $colors, $type = "pie"){
     $sum = 0;
     if(empty($percentages) || empty($colors){
         return false;
