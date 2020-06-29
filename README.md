@@ -1,7 +1,7 @@
 # Pie Chart
 
-Timer, with output format customization.
-
+Generates a chart pie/donut format in css and html vanilla
+ 
 ## Installation
 
 
