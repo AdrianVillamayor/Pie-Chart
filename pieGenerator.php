@@ -19,7 +19,7 @@
   * return mixed null/string
 */
 
-public function pieGenerator($percentages, $colors, $type = "pie"):?string
+public function pieGenerator($percentages, $colors, $type = "pie"): ?string
 {
     $sum = 0;
  
