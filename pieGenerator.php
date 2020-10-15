@@ -16,14 +16,17 @@
   * @param array  $colors      Array of colors that will split the chart
   * @param string $type        Type of chart (default 'pie')
   * 
-  * return string/bool
+  * return mixed null/string
 */
 
-public function pieGenerator($percentages, $colors, $type = "pie"){
+public function pieGenerator($percentages, $colors, $type = "pie"):?string
+{
     $sum = 0;
+ 
     if(empty($percentages) || empty($colors){
-        return false;
+        return null;
     }
+       
     foreach($percentages as $key){
         $sum = $sum + $key;
     }
@@ -123,6 +126,6 @@ public function pieGenerator($percentages, $colors, $type = "pie"){
         return $chart;
     }
        
-    return false;
+    return null;
 }
 ?>
