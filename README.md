@@ -21,12 +21,12 @@ Generates a chart pie/donut format in css and html vanilla
   * @param array  $colors      Array of colors that will split the chart
   * @param string $type        Type of chart (default 'pie')
   * 
-  * return string/bool
+  * return null/string
 */
 
   $percentages = array(11, 10, 61, 14, 4);
   $colors      = array('#007bff', '#e83e8c', '#fd7e14', '#28a745', '#17a2b8');
-  pieGenerator($percentages, $colors);
+  $pie         = pieGenerator($percentages, $colors);
 
 ```
 ## Contributing
